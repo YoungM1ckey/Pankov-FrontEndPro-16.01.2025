@@ -1,10 +1,17 @@
-*{
+.wrapper {
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
 }
 body {
-  display: flex;
+ text-align: center;
+}
+.content {
+    display: inline-flex;
   flex-direction: column;
   gap: 10px;
   background-color: #ccc;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
 }
