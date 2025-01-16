@@ -1,0 +1,10 @@
+*{
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ccc;
+}
