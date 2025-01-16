@@ -12,5 +12,5 @@ function calculateSeconds() {
 	const seconds = hours * 60 * 60;
 
 	document.getElementById("result").textContent =
-		`в ${hours} часов ${seconds} секунд.`;
+		`В ${hours} часах ${seconds} секунд.`;
 }
